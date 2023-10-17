@@ -1,0 +1,41 @@
+/* Home container */
+.card-home-container{
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -114px;
+    padding-top: 7%;
+    padding-bottom: 201px;
+    background-color: whitesmoke;
+    margin-bottom: 0;
+    
+  }
+  .projects-header-container{
+    position: absolute;
+    margin-top: -88px;
+  }
+  /* Card element */
+  .card{
+    width: 13%;
+    padding-bottom: 200px;
+    background-image: url('https://this-creative.com/wp-content/uploads/2018/07/Biz-Cards-EABake.jpg');
+    background-size: cover;
+    border-radius: 2em;
+  }
+  .card:hover{
+    width: 20%;
+    border: 3px solid gray;
+    box-shadow: 15px 30px ;
+  }
+  .card-title{
+    background-color: gray;
+  }
+  .card-title h1 a{
+    text-decoration: none;
+    color: black;
+  }
+ .summary{
+text-align: center;
+background-color: gray;
+ }
