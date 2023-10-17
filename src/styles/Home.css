@@ -4,6 +4,7 @@
     gap: 3em;
     flex-wrap: wrap;
     background-color: lightgray;
+    margin-top: .25em;
   }
   
   .profile-pic img{

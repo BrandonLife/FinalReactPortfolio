@@ -1,0 +1,27 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    border: 2px solid black;
+   padding: 0;
+   }
+  
+  .nav-link-container{
+  display: flex;
+  gap: 4em;
+  margin: .5em;
+ }
+  
+  .nav-link a{
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 2px
+  }
+  
+  .nav-link a:hover{
+    background-color: aqua;
+    color: black;
+  }
